@@ -6,7 +6,7 @@ body{
   line-height: 1.5;
 }
 
-.menu, .menu2{
+.menu {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -26,10 +26,6 @@ body{
 
 .menu a:hover{
   font-weight: bold;
-}
-
-.menu2 li {
-  display: inline-block;
 }
 
 .hlavička{
@@ -99,3 +95,41 @@ h2{
 .tvorba li{
   margin-bottom: 30px;
 }
+
+.portfolio{
+  background-color:rgb(144, 169, 85);
+  color:rgb(255, 252, 247);
+  padding: 85px;
+  text-align: center;
+}
+
+.horizontal{
+  width: 33%;
+}
+
+.vertical{
+  width: 24.65%;
+}
+
+.paticka{
+  text-align: center;
+  background-color:rgb(79, 56, 36);
+  color:rgb(255, 252, 247);
+  padding: 85px;
+}
+
+.paticka a{
+  color: rgb(255, 252, 247);
+  text-decoration: none;
+  transition: font-weight 1s;
+}
+
+.paticka a:hover{
+  font-weight: bold;
+}
+
+.paticka img{
+  width: 30px;
+  margin: 30px 20px 0 20px;
+}
+
