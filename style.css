@@ -63,10 +63,24 @@ h3{
 }
 
 .kdojsem{
-  background-color: rgb(79, 56, 36);
+  background-color: rgb(144, 169, 85);
   color:rgb(255, 252, 247);
+  padding: 85px;
+  overflow: auto;
 }
 
-.kdojsem img{
+.foto-kdojsem{
   height: 400px;
+  float: right;
+  margin-left: 80px;
+}
+
+
+h2{
+  margin: 0 0 30px 0;
+  font-size: 40px;
+}
+
+.kdojsem p{
+  font-size: 20px;
 }
